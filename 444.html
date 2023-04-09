@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>도형 면적 계산기</title>
+</head>
+<body>
+	<h2>도형 면적 계산기</h2>
+	<form method="POST" action="calculator.php">
+		<label for="shape">도형 선택:</label>
+		<select id="shape" name="shape">
+			<option value="rectangle">직사각형</option>
+			<option value="triangle">삼각형</option>
+			<option value="circle">원</option>
+			<option value="cuboid">직육면체</option>
+			<option value="cylinder">원통</option>
+			<option value="sphere">구</option>
+		</select><br><br>
+
+		<div id="inputs">
+			<label for="base">밑변:</label>
+			<input type="number" id="base" name="base"><br>
+		
+			<label for="height">높이:</label>
+			<input type="number" id="height" name="height"><br>
+		
+			<label for="width">가로:</label>
+			<input type="number" id="width" name="width"><br>
+		
+			<label for="length">세로:</label>
+			<input type="number" id="length" name="length"><br>
+		
+			<label for="radius">반지름:</label>
+			<input type="number" id="radius" name="radius"><br>
+		
+			<label for="depth">높이:</label>
+			<input type="number" id="depth" name="depth"><br>
+		  </div>
+		
+		  <input type="submit" value="계산">
+		</form>
+
